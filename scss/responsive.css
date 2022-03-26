@@ -1,0 +1,107 @@
+@media (max-width: 1199px) {
+/* header */
+    .header-wrapper .navbar-expand-lg .navbar-nav{
+    text-align: center;
+    }
+    .header-wrapper .navbar-expand-lg .navbar-nav .nav-link{
+    padding:0;
+    font-size:0.8rem;
+    }
+    .main-btn{
+        font-size: 0.8rem;
+    }
+
+    /* booking area*/
+    .booking-area{
+        padding: 3rem 0.625rem;
+    }
+
+    .room-items .room-content{
+        padding: 0.5rem 0.5rem;
+    }
+    .room-items .room-content h5{
+        font-size: 1.5rem;
+    }
+    .room-items .room-content p{
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-bottom: .75rem;
+    }
+    .rooms-wrapper .room-item-wrap .room-content{
+        border: none;
+    }
+
+    /* Counter */
+
+}
+
+@media (max-width:991px){
+    /* custom css */
+    section{
+        padding: 1.8rem 0;
+    }
+
+    /* 2 Navbar */
+    
+    .header-scrolled{
+        height:auto;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 0.9rem;
+    }
+
+    /* Banner */
+    .banner-wrapper{
+        height: 25.5rem;
+    }
+    .booking-area{
+        padding: 3.15rem 1.75rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    p{
+        font-size: 1rem !important;
+        margin: 0;
+    }
+
+    /* About us section */
+    .about-wrapper{
+        padding-top: 30rem;
+    }
+
+    /* Rooms Sections */
+    .room-items .room-content p{
+        font-size: 0.5rem;
+        line-height: 1.2;
+        margin-bottom: .75rem;
+    }
+
+    .rooms-wrapper .room-item-wrap .room-content{
+        padding: 0 .15rem;
+    }
+}
+
+@media (max-width: 767px){
+    /* custom css */
+    h1{
+        font-size:1.8rem;
+        line-height: 2.5rem;
+    }
+    
+    h3{
+    font-size:1.75rem;
+    line-height: 2.2rem;
+    }
+
+    .counter{
+        margin: auto auto !important;
+        padding-bottom: 0;
+        
+    }
+}
