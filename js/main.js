@@ -8,7 +8,7 @@ window.onscroll = function() {
     }
 }
 
-// Navbar Hide
+// Navbar Hide on small & medium screens
 let navbar = document.querySelectorAll(".nav-link");
 let navCollapse = document.querySelector(".navbar-collapse.collapse");
 navbar.forEach(function(a){
@@ -17,7 +17,7 @@ navbar.forEach(function(a){
     })
 })
 
-// Swiper Slider
+// Swiper Slider for vertical carousel
 
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }, step);
     }
-    counter("count1", 0, 1823, 50);
-    counter("count2", 0, 1975, 50);
-    counter("count3", 0, 1668, 50);
-    counter("count4", 0, 2100, 50);
+    counter("count1", 0, 823, 50);
+    counter("count2", 0, 975, 50);
+    counter("count3", 0, 668, 50);
+    counter("count4", 0, 1100, 50);
 })
 
 
